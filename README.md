@@ -7,4 +7,4 @@ Personal, but open Repo for my Setup on the bm40 40% Ortho-Linear Keyboard Keybo
 |----|----|----|----|----|----|----|----|----|----|----|----|
 ||a|s|d|f|g|h|j|k|l|||
 ||z|x|c|v|b|n|m|||||
-|||||<td colspan=2>SPACE|||||||
+|||||<td colspan=2>SPACE|||||
