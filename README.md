@@ -13,4 +13,4 @@ CTRL|WIN|ALT|HYPER|LOWER<td colspan=2>SPACE|RAISE|LEFT|DOWN|UP|RIGHT
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |x|x|x|x|x|x|x|x|x|x|x|x|
 |x|x|x|x|x|x|x|x|x|x|x|x|
-|x|x|x|x|x<td colspan=2>SPACE|x|x|x|x|x|
+x|x|x|x|x<td colspan=2>SPACE|x|x|x|x|x
