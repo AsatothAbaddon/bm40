@@ -67,17 +67,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * |   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  | Bksp |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Del  |      |      |      |      |      |      |   -  |   =  |   [  |   ]  |  \   |
+ * | Del  |      |      |      | mute | vol- | vol+ |   -  |   =  |   [  |   ]  |  \   |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |  ä   | ö    | ü    |      |      |      |      |ISO # |ISO / |Pg Up |Pg Dn |      |
+ * |  ä   | ö    | ü    |track-|stop  |Plypse|track+|ISO # |ISO / |Pg Up |Pg Dn |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |  Ä   | Ö    | Ü    |      |      |             |      | Next | Vol- | Vol+ | Play |
  * `-----------------------------------------------------------------------------------'
  */
 [_RAISE] = LAYOUT_planck_mit(
     KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC,
-    KC_DEL,  _______,   _______,   _______,   _______,   _______,   _______,   KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS,
-    UC(0x00E4), UC(0x00F6),   UC(0x00FC),   _______,   _______,  _______,  _______,  KC_NUHS, KC_NUBS, KC_PGUP, KC_PGDN, _______,
+    KC_DEL,  _______,   _______,   _______,   KC__MUTE,   KC__VOLDOWN,   KC__VOLUP,  KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS,
+    UC(0x00E4), UC(0x00F6),   UC(0x00FC),   KC_MEDIA_PREV_TRACK,   KC_MEDIA_STOP,  KC_MEDIA_PLAY_PAUSE,  KC_MEDIA_NEXT_TRACK,  KC_NUHS, KC_NUBS, KC_PGUP, KC_PGDN, _______,
     UC(0x00C4), UC(0x00D6), UC(0x00DC), _______, _______, _______, _______, KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY
 ),
 
